@@ -14,7 +14,7 @@ namespace ProyectoLab.Entities
         public string? Observaciones { get; set; }
         public string? Telefono { get; set; }
         public string? Correo { get; set; }
-        public DateTime FechaMoficacion { get; set; }
+        public DateTime FechaModificacion { get; set; }
 
     }
 }

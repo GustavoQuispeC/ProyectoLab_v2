@@ -3,3 +3,14 @@ D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.DataAccess\obj\Debug\net8.0\
 D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.DataAccess\obj\Debug\net8.0\ProyectoLab.DataAccess.AssemblyInfo.cs
 D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.DataAccess\obj\Debug\net8.0\ProyectoLab.DataAccess.csproj.CoreCompileInputs.cache
 D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.DataAccess\obj\Debug\net8.0\ProyectoLab.DataAccess.sourcelink.json
+D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.DataAccess\bin\Debug\net8.0\ProyectoLab.DataAccess.deps.json
+D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.DataAccess\bin\Debug\net8.0\ProyectoLab.DataAccess.dll
+D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.DataAccess\bin\Debug\net8.0\ProyectoLab.DataAccess.pdb
+D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.DataAccess\bin\Debug\net8.0\ProyectoLab.Entities.dll
+D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.DataAccess\bin\Debug\net8.0\ProyectoLab.Entities.pdb
+D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.DataAccess\obj\Debug\net8.0\ProyectoLab.DataAccess.csproj.AssemblyReference.cache
+D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.DataAccess\obj\Debug\net8.0\ProyectoLab.DataAccess.csproj.CopyComplete
+D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.DataAccess\obj\Debug\net8.0\ProyectoLab.DataAccess.dll
+D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.DataAccess\obj\Debug\net8.0\refint\ProyectoLab.DataAccess.dll
+D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.DataAccess\obj\Debug\net8.0\ProyectoLab.DataAccess.pdb
+D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.DataAccess\obj\Debug\net8.0\ref\ProyectoLab.DataAccess.dll

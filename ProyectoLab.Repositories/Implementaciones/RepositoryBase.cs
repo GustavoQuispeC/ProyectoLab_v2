@@ -1,4 +1,5 @@
-﻿using ProyectoLab.DataAccess.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using ProyectoLab.DataAccess.Data;
 using ProyectoLab.Entities;
 using ProyectoLab.Repositories.Interfaces;
 using System;
@@ -22,14 +23,19 @@ namespace ProyectoLab.Repositories.Implementaciones
         public async Task<ICollection<TEntity>> ListAsync()
         {
             return await _context.Set<TEntity>()
-                .Where(x => x.)
+                .Where(p =>p.Estado == true)
+                .AsNoTracking()
+                .ToListAsync();
+               
 
         }
 
 
-        public Task AddAsync(TEntity entity)
+        public async Task AddAsync(TEntity entity)
         {
-            throw new NotImplementedException();
+            await _context.Set<TEntity>().AddAsync(entity);
+            await _context.SaveChangesAsync();
+            
         }
 
         public Task DeleteAsync(int id)

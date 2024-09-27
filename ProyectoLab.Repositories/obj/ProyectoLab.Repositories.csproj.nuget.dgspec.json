@@ -27,7 +27,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Documentos\\Curso .Net\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj": {
+                "projectPath": "D:\\Documentos\\Curso .Net\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
