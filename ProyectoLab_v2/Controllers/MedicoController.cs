@@ -28,5 +28,23 @@ namespace ProyectoLab_v2.Controllers
             await _medicoRepository.AddAsync(medico);
             return Ok();
         }
+        [HttpPut("{id:int}")]
+        public async Task<IActionResult> Put(int id, Medico medico)
+        {
+            var registro = await _medicoRepository.FindAsync(id);
+            if (registro == null)
+            {
+                return NotFound();
+            }
+            registro.Nombres = medico.Nombres;
+            registro.Apellidos = medico.Apellidos;
+            registro.Especialidad = medico.Especialidad;
+            registro.Observaciones = medico.Observaciones;
+            registro.Telefono = medico.Telefono;
+            registro.Correo = medico.Correo;
+
+            await _medicoRepository.UpdateAsync();
+            return Ok();
+        }
     }
 }

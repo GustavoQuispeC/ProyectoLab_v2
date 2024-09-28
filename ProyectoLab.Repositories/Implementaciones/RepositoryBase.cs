@@ -26,8 +26,6 @@ namespace ProyectoLab.Repositories.Implementaciones
                 .Where(p =>p.Estado == true)
                 .AsNoTracking()
                 .ToListAsync();
-               
-
         }
 
 
@@ -38,14 +36,22 @@ namespace ProyectoLab.Repositories.Implementaciones
             
         }
 
+        public async Task UpdateAsync()
+        {
+            await _context.SaveChangesAsync();
+        }
+
+
+
         public Task DeleteAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<TEntity?> FindAsync(int id)
+        public async Task<TEntity?> FindAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _context.Set<TEntity>()
+                .FindAsync(id);
         }
 
       
@@ -55,9 +61,6 @@ namespace ProyectoLab.Repositories.Implementaciones
             throw new NotImplementedException();
         }
 
-        public Task UpdateAsync()
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }
