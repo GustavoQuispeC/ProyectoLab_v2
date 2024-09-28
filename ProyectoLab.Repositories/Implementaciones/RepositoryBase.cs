@@ -28,6 +28,11 @@ namespace ProyectoLab.Repositories.Implementaciones
                 .ToListAsync();
         }
 
+        public async Task<TEntity?> FindAsync(int id)
+        {
+            return await _context.Set<TEntity>()
+                .FindAsync(id);
+        }
 
         public async Task AddAsync(TEntity entity)
         {
@@ -41,18 +46,17 @@ namespace ProyectoLab.Repositories.Implementaciones
             await _context.SaveChangesAsync();
         }
 
-
-
-        public Task DeleteAsync(int id)
+        public async Task DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            var registro = await FindAsync(id);
+            if(registro != null)
+            {
+               registro.Estado = false;
+                await UpdateAsync();
+            }
         }
 
-        public async Task<TEntity?> FindAsync(int id)
-        {
-            return await _context.Set<TEntity>()
-                .FindAsync(id);
-        }
+       
 
       
 

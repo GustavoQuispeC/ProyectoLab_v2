@@ -22,6 +22,17 @@ namespace ProyectoLab_v2.Controllers
             return Ok(medicos);
         }
 
+        [HttpGet("{id:int}")]
+        public async Task<IActionResult> GetMedico(int id)
+        {
+            var medico = await _medicoRepository.FindAsync(id);
+            if (medico == null)
+            {
+                return NotFound();
+            }
+            return Ok(medico);
+        }
+
         [HttpPost]
         public async Task<IActionResult> PostMedico(Medico medico)
         {
@@ -44,6 +55,13 @@ namespace ProyectoLab_v2.Controllers
             registro.Correo = medico.Correo;
 
             await _medicoRepository.UpdateAsync();
+            return Ok();
+        }
+
+        [HttpDelete("{id:int}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _medicoRepository.DeleteAsync(id);
             return Ok();
         }
     }
