@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ProyectoLab.DataAccess\ProyectoLab.DataAccess.csproj" />
     <ProjectReference Include="..\ProyectoLab.Repositories\ProyectoLab.Repositories.csproj" />
+    <ProjectReference Include="..\ProyectoLab.Shared\ProyectoLab.Shared.csproj" />
   </ItemGroup>
 
 </Project>

@@ -11,6 +11,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "8.0.8",
           "ProyectoLab.DataAccess": "1.0.0",
           "ProyectoLab.Repositories": "1.0.0",
+          "ProyectoLab.Shared": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -937,6 +938,11 @@
         "runtime": {
           "ProyectoLab.Repositories.dll": {}
         }
+      },
+      "ProyectoLab.Shared/1.0.0": {
+        "runtime": {
+          "ProyectoLab.Shared.dll": {}
+        }
       }
     }
   },
@@ -1531,6 +1537,11 @@
       "sha512": ""
     },
     "ProyectoLab.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProyectoLab.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

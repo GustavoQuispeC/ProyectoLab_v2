@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProyectoLab.Entities;
 using ProyectoLab.Repositories.Interfaces;
+using ProyectoLab.Shared;
 
 namespace ProyectoLab_v2.Controllers
 {
@@ -34,25 +35,34 @@ namespace ProyectoLab_v2.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> PostMedico(Medico medico)
+        public async Task<IActionResult> PostMedico(MedicoDto request)
         {
+            var medico = new Medico
+            {
+                Nombres = request.Nombres,
+                Apellidos = request.Apellidos,
+                Especialidad = request.Especialidad,
+                Observaciones = request.Observaciones,
+                Telefono = request.Telefono,
+                Correo = request.Correo
+            };
             await _medicoRepository.AddAsync(medico);
             return Ok();
         }
         [HttpPut("{id:int}")]
-        public async Task<IActionResult> Put(int id, Medico medico)
+        public async Task<IActionResult> Put(int id, MedicoDto request)
         {
-            var registro = await _medicoRepository.FindAsync(id);
-            if (registro == null)
+            var medico = await _medicoRepository.FindAsync(id);
+            if (medico == null)
             {
                 return NotFound();
             }
-            registro.Nombres = medico.Nombres;
-            registro.Apellidos = medico.Apellidos;
-            registro.Especialidad = medico.Especialidad;
-            registro.Observaciones = medico.Observaciones;
-            registro.Telefono = medico.Telefono;
-            registro.Correo = medico.Correo;
+            medico.Nombres = request.Nombres;
+            medico.Apellidos = request.Apellidos;
+            medico.Especialidad = request.Especialidad;
+            medico.Observaciones = request.Observaciones;
+            medico.Telefono = request.Telefono;
+            medico.Correo = request.Correo;
 
             await _medicoRepository.UpdateAsync();
             return Ok();

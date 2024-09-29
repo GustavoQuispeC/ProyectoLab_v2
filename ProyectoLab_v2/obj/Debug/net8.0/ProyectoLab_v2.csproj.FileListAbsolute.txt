@@ -142,3 +142,5 @@ D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab_v2\bin\Debug\net8.0\Proyecto
 D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab_v2\bin\Debug\net8.0\ProyectoLab.DataAccess.pdb
 D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab_v2\bin\Debug\net8.0\ProyectoLab.Repositories.pdb
 D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab_v2\bin\Debug\net8.0\ProyectoLab.Entities.pdb
+D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab_v2\bin\Debug\net8.0\ProyectoLab.Shared.dll
+D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab_v2\bin\Debug\net8.0\ProyectoLab.Shared.pdb

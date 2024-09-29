@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoLab_v2", "ProyectoLab_v2\ProyectoLab_v2.csproj", "{821B0AE5-4744-4184-8504-5F6EEE3FC9CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoLab_v2", "ProyectoLab_v2\ProyectoLab_v2.csproj", "{821B0AE5-4744-4184-8504-5F6EEE3FC9CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoLab.DataAccess", "ProyectoLab.DataAccess\ProyectoLab.DataAccess.csproj", "{AFF15F54-E259-45F8-B43E-804F5CEBF460}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoLab.DataAccess", "ProyectoLab.DataAccess\ProyectoLab.DataAccess.csproj", "{AFF15F54-E259-45F8-B43E-804F5CEBF460}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoLab.Entities", "ProyectoLab.Entities\ProyectoLab.Entities.csproj", "{BCB254D9-01DF-4BF5-8861-E395DF0D2945}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoLab.Entities", "ProyectoLab.Entities\ProyectoLab.Entities.csproj", "{BCB254D9-01DF-4BF5-8861-E395DF0D2945}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoLab.Repositories", "ProyectoLab.Repositories\ProyectoLab.Repositories.csproj", "{2FE27DE6-4B2F-4AFD-9734-5D699983C961}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoLab.Repositories", "ProyectoLab.Repositories\ProyectoLab.Repositories.csproj", "{2FE27DE6-4B2F-4AFD-9734-5D699983C961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoLab.Shared", "ProyectoLab.Shared\ProyectoLab.Shared.csproj", "{9952DF9F-B687-43CE-8A28-BFDCA4B3CB41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2FE27DE6-4B2F-4AFD-9734-5D699983C961}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FE27DE6-4B2F-4AFD-9734-5D699983C961}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FE27DE6-4B2F-4AFD-9734-5D699983C961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9952DF9F-B687-43CE-8A28-BFDCA4B3CB41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9952DF9F-B687-43CE-8A28-BFDCA4B3CB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9952DF9F-B687-43CE-8A28-BFDCA4B3CB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9952DF9F-B687-43CE-8A28-BFDCA4B3CB41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
