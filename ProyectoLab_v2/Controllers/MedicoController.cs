@@ -71,7 +71,7 @@ namespace ProyectoLab_v2.Controllers
         [HttpDelete("{id:int}")]
         public async Task<IActionResult> Delete(int id)
         {
-            await _medicoRepository.DeleteAsync(id);
+             await _medicoRepository.DeleteAsync(id);
             return Ok();
         }
     }
