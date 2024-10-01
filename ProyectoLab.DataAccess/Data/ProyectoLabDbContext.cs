@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoLab.DataAccess.Data
 {
-    public class ProyectoLabDbContext : DbContext
+    public class ProyectoLabDbContext : IdentityDbContext<IdentityUserProyectoLab>
     {
         public ProyectoLabDbContext(DbContextOptions<ProyectoLabDbContext> options) : base(options)
         {
