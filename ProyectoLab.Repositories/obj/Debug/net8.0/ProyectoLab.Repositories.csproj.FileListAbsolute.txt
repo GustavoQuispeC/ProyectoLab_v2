@@ -16,3 +16,5 @@ D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.Repositories\obj\Debug\net8.
 D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.Repositories\obj\Debug\net8.0\refint\ProyectoLab.Repositories.dll
 D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.Repositories\obj\Debug\net8.0\ProyectoLab.Repositories.pdb
 D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.Repositories\obj\Debug\net8.0\ref\ProyectoLab.Repositories.dll
+D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.Repositories\bin\Debug\net8.0\ProyectoLab.Shared.dll
+D:\Documentos\Curso .Net\ProyectoLab_v2\ProyectoLab.Repositories\bin\Debug\net8.0\ProyectoLab.Shared.pdb

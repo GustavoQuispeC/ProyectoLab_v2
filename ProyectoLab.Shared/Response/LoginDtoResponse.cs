@@ -13,5 +13,9 @@ namespace ProyectoLab.Shared.Response
         public string NombreCompleto { get; set; } = default!;
 
         public List<string> Roles { get; set; } = default!;
+
+       
+
+
     }
 }

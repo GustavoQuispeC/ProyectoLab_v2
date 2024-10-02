@@ -1075,7 +1075,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore": "8.0.8",
-          "ProyectoLab.Entities": "1.0.0"
+          "ProyectoLab.Entities": "1.0.0",
+          "ProyectoLab.Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ProyectoLab.DataAccess.dll": {}
@@ -1096,6 +1097,16 @@
         },
         "runtime": {
           "bin/placeholder/ProyectoLab.Entities.dll": {}
+        }
+      },
+      "ProyectoLab.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ProyectoLab.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProyectoLab.Shared.dll": {}
         }
       }
     }
@@ -2952,6 +2963,11 @@
       "type": "project",
       "path": "../ProyectoLab.Entities/ProyectoLab.Entities.csproj",
       "msbuildProject": "../ProyectoLab.Entities/ProyectoLab.Entities.csproj"
+    },
+    "ProyectoLab.Shared/1.0.0": {
+      "type": "project",
+      "path": "../ProyectoLab.Shared/ProyectoLab.Shared.csproj",
+      "msbuildProject": "../ProyectoLab.Shared/ProyectoLab.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {

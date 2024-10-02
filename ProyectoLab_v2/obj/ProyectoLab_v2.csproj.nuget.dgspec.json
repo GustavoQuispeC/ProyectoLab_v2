@@ -30,6 +30,9 @@
             "projectReferences": {
               "D:\\Documentos\\Curso .Net\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj": {
                 "projectPath": "D:\\Documentos\\Curso .Net\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj"
+              },
+              "D:\\Documentos\\Curso .Net\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj": {
+                "projectPath": "D:\\Documentos\\Curso .Net\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj"
               }
             }
           }

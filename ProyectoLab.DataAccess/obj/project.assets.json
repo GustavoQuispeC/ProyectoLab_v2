@@ -1082,6 +1082,16 @@
         "runtime": {
           "bin/placeholder/ProyectoLab.Entities.dll": {}
         }
+      },
+      "ProyectoLab.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ProyectoLab.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProyectoLab.Shared.dll": {}
+        }
       }
     }
   },
@@ -2932,13 +2942,19 @@
       "type": "project",
       "path": "../ProyectoLab.Entities/ProyectoLab.Entities.csproj",
       "msbuildProject": "../ProyectoLab.Entities/ProyectoLab.Entities.csproj"
+    },
+    "ProyectoLab.Shared/1.0.0": {
+      "type": "project",
+      "path": "../ProyectoLab.Shared/ProyectoLab.Shared.csproj",
+      "msbuildProject": "../ProyectoLab.Shared/ProyectoLab.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.8",
       "Microsoft.EntityFrameworkCore >= 8.0.8",
-      "ProyectoLab.Entities >= 1.0.0"
+      "ProyectoLab.Entities >= 1.0.0",
+      "ProyectoLab.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2970,6 +2986,9 @@
           "projectReferences": {
             "D:\\Documentos\\Curso .Net\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj": {
               "projectPath": "D:\\Documentos\\Curso .Net\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj"
+            },
+            "D:\\Documentos\\Curso .Net\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj": {
+              "projectPath": "D:\\Documentos\\Curso .Net\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj"
             }
           }
         }

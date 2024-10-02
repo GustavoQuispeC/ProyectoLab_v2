@@ -22,6 +22,13 @@ namespace ProyectoLab_v2.Controllers
             return Ok(response);
         }
 
+        [HttpPost("Register")]
+        public async Task<IActionResult> Register([FromBody] RegistrarUsuarioDto request)
+        {
+            var response = await _service.RegisterAsync(request);
+
+            return Ok(response);
+        }
 
     }
 }

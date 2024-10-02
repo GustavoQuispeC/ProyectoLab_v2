@@ -8,6 +8,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security;
 using System.Text;
+using ProyectoLab.Shared;
 
 namespace ProyectoLab_v2.Services
 {
@@ -16,7 +17,7 @@ namespace ProyectoLab_v2.Services
         private readonly IConfiguration _configuration;
         private readonly UserManager<IdentityUserProyectoLab> _userManager;
         private readonly ILogger<UserService> _logger;
-        private readonly IPacienteRepository _pacienteRepository; 
+        private readonly IPacienteRepository _pacienteRepository;
 
         public UserService(IConfiguration configuration, UserManager<IdentityUserProyectoLab> userManager, ILogger<UserService> logger, IPacienteRepository pacienteRepository)
         {
@@ -50,7 +51,7 @@ namespace ProyectoLab_v2.Services
                 var claims = new List<Claim>()
             {
                 new Claim(ClaimTypes.Name, identity.NombreCompleto),
-                //new Claim(ClaimTypes.Email, identity.Email!),
+                new Claim(ClaimTypes.Email, identity.Email!),
                 new Claim(ClaimTypes.Expiration, fechaExpiracion.ToString("yyyy-MM-dd HH:mm:ss")),
             };
 
@@ -79,7 +80,6 @@ namespace ProyectoLab_v2.Services
                 response.Exito = true;
 
                 _logger.LogInformation("Se creó el JWT de forma satisfactoria");
-
             }
             catch (SecurityException ex)
             {
@@ -91,12 +91,64 @@ namespace ProyectoLab_v2.Services
                 response.MensajeError = "Error inesperado";
                 _logger.LogError(ex, "Error al autenticar {Message}", ex.Message);
             }
+
             return response;
         }
 
-        public Task<BaseResponse> RegisterAsync(RegistrarUsuarioDto request)
+        public async Task<BaseResponse> RegisterAsync(RegistrarUsuarioDto request)
         {
-            throw new NotImplementedException();
+            var response = new BaseResponse();
+
+            try
+            {
+                var identity = new IdentityUserProyectoLab
+                {
+                    NombreCompleto = request.NombreCompleto,
+                    FechaNacimiento = request.FechaNacimiento,
+                    Direccion = request.Direccion,
+                    UserName = request.NombreUsuario,
+                    Email = request.Email,
+                    EmailConfirmed = true
+                };
+
+                var result = await _userManager.CreateAsync(identity, request.Password);
+                if (result.Succeeded)
+                {
+                    await _userManager.AddToRoleAsync(identity, Constantes.RolCliente);
+
+                    //var cliente = new Cliente
+                    //{
+                    //    Nombres = request.NombreCompleto.Split(" ", StringSplitOptions.RemoveEmptyEntries).First(),
+                    //    Apellidos = request.NombreCompleto.Split(" ", StringSplitOptions.RemoveEmptyEntries).Last(),
+                    //    Email = request.Email,
+                    //    FechaNacimiento = request.FechaNacimiento,
+                    //    TipoClienteId = 1
+                    //};
+
+                    //await _clienteRepository.AddAsync(cliente);
+                }
+                else
+                {
+                    var sb = new StringBuilder();
+                    foreach (var identityError in result.Errors)
+                    {
+                        sb.AppendFormat("{0} ", identityError.Description);
+                    }
+
+                    response.MensajeError = sb.ToString();
+                    sb.Clear();
+                }
+
+                response.Exito = result.Succeeded;
+            }
+            catch (Exception ex)
+            {
+                response.MensajeError = "Error al registrar";
+                _logger.LogWarning(ex, "{MensajeError} {Message}", response.MensajeError, ex.Message);
+            }
+
+            return response;
+
         }
     }
 }

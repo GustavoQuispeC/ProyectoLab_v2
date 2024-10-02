@@ -54,6 +54,7 @@ builder.Services.AddCors(options =>
     });
 });
 
+
 // Configurar autenticación con JWT Bearer
 builder.Services.AddAuthentication(x =>
 {
@@ -99,5 +100,12 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+//
+using (var scope = app.Services.CreateScope())
+{
+    await UserDataSeeder.Seed(scope.ServiceProvider);
+}
+
 
 app.Run();

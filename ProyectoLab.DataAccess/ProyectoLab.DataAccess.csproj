@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ProyectoLab.Entities\ProyectoLab.Entities.csproj" />
+    <ProjectReference Include="..\ProyectoLab.Shared\ProyectoLab.Shared.csproj" />
   </ItemGroup>
 
 </Project>

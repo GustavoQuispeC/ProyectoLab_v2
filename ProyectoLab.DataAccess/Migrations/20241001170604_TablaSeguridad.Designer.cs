@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProyectoLab.DataAccess.Data;
 
@@ -11,9 +12,11 @@ using ProyectoLab.DataAccess.Data;
 namespace ProyectoLab.DataAccess.Migrations
 {
     [DbContext(typeof(ProyectoLabDbContext))]
-    partial class ProyectoLabDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241001170604_TablaSeguridad")]
+    partial class TablaSeguridad
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

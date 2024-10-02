@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoLab.Repositories")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ecab8a4392ac2a034adf6abcc20ef651d35b7bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48c27c1d7f01beb079ac50bb4e88bfad81de2c61")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectoLab.Repositories")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoLab.Repositories")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
