@@ -13,6 +13,11 @@ namespace ProyectoLab.Shared
         public const string ValidacionRango = "El campo {0} debe estar entre {1} y {2}";
 
         public const string RolAdministrador = "Administrador";
+
+        public const string RolMedico = "Medico";
+        public const string RolTecnico = "Tecnico";
+        public const string RolTecnologo = "Tecnologo";
+        public const string RolPaciente = "Paciente";
         public const string RolCliente = "Cliente";
     }
 }

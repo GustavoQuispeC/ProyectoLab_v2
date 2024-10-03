@@ -21,6 +21,12 @@ namespace ProyectoLab.DataAccess
             // Crear los roles
             var adminRole = new IdentityRole(Constantes.RolAdministrador);
             var clienteRole = new IdentityRole(Constantes.RolCliente);
+            var medicoRole = new IdentityRole(Constantes.RolMedico);
+            var tecnicoRole = new IdentityRole(Constantes.RolTecnico);
+            var tecnologoRole = new IdentityRole(Constantes.RolTecnologo);
+            var pacienteRole = new IdentityRole(Constantes.RolPaciente);
+
+
 
             if (!await roleManager.RoleExistsAsync(Constantes.RolAdministrador))
             {
@@ -30,6 +36,26 @@ namespace ProyectoLab.DataAccess
             if (!await roleManager.RoleExistsAsync(Constantes.RolCliente))
             {
                 await roleManager.CreateAsync(clienteRole);
+            }
+
+            if (!await roleManager.RoleExistsAsync(Constantes.RolMedico))
+            {
+                await roleManager.CreateAsync(medicoRole);
+            }
+
+            if (!await roleManager.RoleExistsAsync(Constantes.RolTecnico))
+            {
+                await roleManager.CreateAsync(tecnicoRole);
+            }
+
+            if (!await roleManager.RoleExistsAsync(Constantes.RolTecnologo))
+            {
+                await roleManager.CreateAsync(tecnologoRole);
+            }
+
+            if (!await roleManager.RoleExistsAsync(Constantes.RolPaciente))
+            {
+                await roleManager.CreateAsync(pacienteRole);
             }
 
             // Creamos el usuario Administrador
