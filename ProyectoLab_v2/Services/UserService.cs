@@ -101,6 +101,7 @@ namespace ProyectoLab_v2.Services
 
             try
             {
+                // Validamos si el usuario ya existe
                 var identity = new IdentityUserProyectoLab
                 {
                     NombreCompleto = request.NombreCompleto,

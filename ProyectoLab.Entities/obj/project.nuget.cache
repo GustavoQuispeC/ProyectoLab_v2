@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bC2sxPFNsbHFGpbv1eFBq7QKscqljXRgW8Kya3HhY2aRxAV/FV+/Ip3f3wlzwhmWk0J+L5+hc0zMEw9SCHBHOg==",
+  "dgSpecHash": "tAuAnr3QipY=",
   "success": true,
-  "projectFilePath": "D:\\Documentos\\Curso .Net\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj",
+  "projectFilePath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cWMR8NlU2XsQNG2flXHGCD3EMLTYk8ZJH9bEYE3Co4u7Mul5aaAsbR9nZP/Fj16TBfXvSook+t7ganZZ3cEqAw==",
+  "dgSpecHash": "vmNtTRkiId4=",
   "success": true,
-  "projectFilePath": "D:\\Documentos\\Curso .Net\\ProyectoLab_v2\\ProyectoLab.DataAccess\\ProyectoLab.DataAccess.csproj",
+  "projectFilePath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.DataAccess\\ProyectoLab.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
