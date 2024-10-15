@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab_v2\\ProyectoLab_v2.csproj": {}
+    "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab_v2\\ProyectoLab_v2.csproj": {}
   },
   "projects": {
-    "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.DataAccess\\ProyectoLab.DataAccess.csproj": {
+    "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.DataAccess\\ProyectoLab.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.DataAccess\\ProyectoLab.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.DataAccess\\ProyectoLab.DataAccess.csproj",
         "projectName": "ProyectoLab.DataAccess",
-        "projectPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.DataAccess\\ProyectoLab.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.DataAccess\\ProyectoLab.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,11 +29,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj": {
-                "projectPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj"
+              "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj"
               },
-              "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj": {
-                "projectPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj"
+              "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj"
               }
             }
           }
@@ -82,17 +82,17 @@
         }
       }
     },
-    "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj": {
+    "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj",
         "projectName": "ProyectoLab.Entities",
-        "projectPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\obj\\",
+        "projectPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -159,17 +159,17 @@
         }
       }
     },
-    "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Repositories\\ProyectoLab.Repositories.csproj": {
+    "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Repositories\\ProyectoLab.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Repositories\\ProyectoLab.Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Repositories\\ProyectoLab.Repositories.csproj",
         "projectName": "ProyectoLab.Repositories",
-        "projectPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Repositories\\ProyectoLab.Repositories.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Repositories\\obj\\",
+        "projectPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Repositories\\ProyectoLab.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -184,11 +184,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.DataAccess\\ProyectoLab.DataAccess.csproj": {
-                "projectPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.DataAccess\\ProyectoLab.DataAccess.csproj"
+              "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.DataAccess\\ProyectoLab.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.DataAccess\\ProyectoLab.DataAccess.csproj"
               },
-              "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj": {
-                "projectPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj"
+              "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj"
               }
             }
           }
@@ -227,17 +227,17 @@
         }
       }
     },
-    "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj": {
+    "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj",
         "projectName": "ProyectoLab.Shared",
-        "projectPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\obj\\",
+        "projectPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -288,17 +288,17 @@
         }
       }
     },
-    "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab_v2\\ProyectoLab_v2.csproj": {
+    "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab_v2\\ProyectoLab_v2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab_v2\\ProyectoLab_v2.csproj",
+        "projectUniqueName": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab_v2\\ProyectoLab_v2.csproj",
         "projectName": "ProyectoLab_v2",
-        "projectPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab_v2\\ProyectoLab_v2.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab_v2\\obj\\",
+        "projectPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab_v2\\ProyectoLab_v2.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab_v2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -313,14 +313,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.DataAccess\\ProyectoLab.DataAccess.csproj": {
-                "projectPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.DataAccess\\ProyectoLab.DataAccess.csproj"
+              "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.DataAccess\\ProyectoLab.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.DataAccess\\ProyectoLab.DataAccess.csproj"
               },
-              "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Repositories\\ProyectoLab.Repositories.csproj": {
-                "projectPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Repositories\\ProyectoLab.Repositories.csproj"
+              "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Repositories\\ProyectoLab.Repositories.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Repositories\\ProyectoLab.Repositories.csproj"
               },
-              "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj": {
-                "projectPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj"
+              "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj": {
+                "projectPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj"
               }
             }
           }

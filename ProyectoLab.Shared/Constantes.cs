@@ -19,5 +19,6 @@ namespace ProyectoLab.Shared
         public const string RolTecnologo = "Tecnologo";
         public const string RolPaciente = "Paciente";
         public const string RolCliente = "Cliente";
+        public const string RolSecretaria = "Secretaria";
     }
 }
