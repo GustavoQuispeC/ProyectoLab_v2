@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9952DF9F-B687-43CE-8A28-BFDCA4B3CB41}|ProyectoLab.Shared\\ProyectoLab.Shared.csproj|c:\\users\\gustavo\\onedrive\\documentos\\.net proyectos\\proyectolab_v2\\proyectolab.shared\\constantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9952DF9F-B687-43CE-8A28-BFDCA4B3CB41}|ProyectoLab.Shared\\ProyectoLab.Shared.csproj|solutionrelative:proyectolab.shared\\constantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{821B0AE5-4744-4184-8504-5F6EEE3FC9CA}|ProyectoLab_v2\\ProyectoLab_v2.csproj|c:\\users\\gustavo\\onedrive\\documentos\\.net proyectos\\proyectolab_v2\\proyectolab_v2\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{821B0AE5-4744-4184-8504-5F6EEE3FC9CA}|ProyectoLab_v2\\ProyectoLab_v2.csproj|solutionrelative:proyectolab_v2\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFF15F54-E259-45F8-B43E-804F5CEBF460}|ProyectoLab.DataAccess\\ProyectoLab.DataAccess.csproj|c:\\users\\gustavo\\onedrive\\documentos\\.net proyectos\\proyectolab_v2\\proyectolab.dataaccess\\identityuserproyectolab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFF15F54-E259-45F8-B43E-804F5CEBF460}|ProyectoLab.DataAccess\\ProyectoLab.DataAccess.csproj|solutionrelative:proyectolab.dataaccess\\identityuserproyectolab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9952DF9F-B687-43CE-8A28-BFDCA4B3CB41}|ProyectoLab.Shared\\ProyectoLab.Shared.csproj|c:\\users\\gustavo\\onedrive\\documentos\\.net proyectos\\proyectolab_v2\\proyectolab.shared\\constantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9952DF9F-B687-43CE-8A28-BFDCA4B3CB41}|ProyectoLab.Shared\\ProyectoLab.Shared.csproj|solutionrelative:proyectolab.shared\\constantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9952DF9F-B687-43CE-8A28-BFDCA4B3CB41}|ProyectoLab.Shared\\ProyectoLab.Shared.csproj|c:\\users\\gustavo\\onedrive\\documentos\\.net proyectos\\proyectolab_v2\\proyectolab.shared\\request\\logindtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 387,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,26 +38,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab_v2\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "ProyectoLab_v2\\Services\\UserService.cs",
               "ToolTip": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab_v2\\Services\\UserService.cs",
               "RelativeToolTip": "ProyectoLab_v2\\Services\\UserService.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAowG0AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAowHYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T04:41:45.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Constantes.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\Constantes.cs",
               "RelativeDocumentMoniker": "ProyectoLab.Shared\\Constantes.cs",
               "ToolTip": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\Constantes.cs",
               "RelativeToolTip": "ProyectoLab.Shared\\Constantes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T04:41:45.549Z",
               "EditorCaption": ""
@@ -77,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IdentityUserProyectoLab.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.DataAccess\\IdentityUserProyectoLab.cs",
               "RelativeDocumentMoniker": "ProyectoLab.DataAccess\\IdentityUserProyectoLab.cs",

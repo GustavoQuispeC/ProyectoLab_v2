@@ -13,7 +13,7 @@ namespace ProyectoLab.Entities
         public string? Especialidad { get; set; }
         public string? Observaciones { get; set; }
         public string? Telefono { get; set; }
-        public string? Correo { get; set; }
+        public string? Correo { get; set; } //debe de ser opcional
         public DateTime FechaModificacion { get; set; }
 
     }
