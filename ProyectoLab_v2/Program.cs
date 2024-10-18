@@ -19,6 +19,7 @@ builder.Services.AddTransient<IPacienteRepository, PacienteRepository>();
 
 
 builder.Services.AddTransient<IUserService, UserService>();
+//implementando la cadena de conexión a la base de datos
 builder.Services.AddDbContext<ProyectoLabDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("ProyectoLabDb"));
