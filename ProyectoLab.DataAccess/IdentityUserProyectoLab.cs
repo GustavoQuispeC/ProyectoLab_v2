@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ProyectoLab.DataAccess
+// IdentityUserProyectoLab hereda de IdentityUser
 {
     public class IdentityUserProyectoLab : IdentityUser
     {
