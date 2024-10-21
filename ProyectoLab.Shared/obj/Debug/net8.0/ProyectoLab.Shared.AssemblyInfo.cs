@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoLab.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e4d71c2c045c6dd8e295885c887d956dc7adfc3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4168693dd05bca468e25869d1745bba2eee60e97")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectoLab.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoLab.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
