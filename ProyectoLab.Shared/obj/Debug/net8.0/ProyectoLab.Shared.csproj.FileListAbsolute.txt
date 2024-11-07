@@ -22,3 +22,15 @@ C:\Users\Gustavo\OneDrive\Documentos\.Net Proyectos\ProyectoLab_v2\ProyectoLab.S
 C:\Users\Gustavo\OneDrive\Documentos\.Net Proyectos\ProyectoLab_v2\ProyectoLab.Shared\obj\Debug\net8.0\refint\ProyectoLab.Shared.dll
 C:\Users\Gustavo\OneDrive\Documentos\.Net Proyectos\ProyectoLab_v2\ProyectoLab.Shared\obj\Debug\net8.0\ProyectoLab.Shared.pdb
 C:\Users\Gustavo\OneDrive\Documentos\.Net Proyectos\ProyectoLab_v2\ProyectoLab.Shared\obj\Debug\net8.0\ref\ProyectoLab.Shared.dll
+D:\OneDrive\Documentos\.Net Proyectos\ProyectoLab_v2\ProyectoLab.Shared\bin\Debug\net8.0\ProyectoLab.Shared.deps.json
+D:\OneDrive\Documentos\.Net Proyectos\ProyectoLab_v2\ProyectoLab.Shared\bin\Debug\net8.0\ProyectoLab.Shared.dll
+D:\OneDrive\Documentos\.Net Proyectos\ProyectoLab_v2\ProyectoLab.Shared\bin\Debug\net8.0\ProyectoLab.Shared.pdb
+D:\OneDrive\Documentos\.Net Proyectos\ProyectoLab_v2\ProyectoLab.Shared\obj\Debug\net8.0\ProyectoLab.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive\Documentos\.Net Proyectos\ProyectoLab_v2\ProyectoLab.Shared\obj\Debug\net8.0\ProyectoLab.Shared.AssemblyInfoInputs.cache
+D:\OneDrive\Documentos\.Net Proyectos\ProyectoLab_v2\ProyectoLab.Shared\obj\Debug\net8.0\ProyectoLab.Shared.AssemblyInfo.cs
+D:\OneDrive\Documentos\.Net Proyectos\ProyectoLab_v2\ProyectoLab.Shared\obj\Debug\net8.0\ProyectoLab.Shared.csproj.CoreCompileInputs.cache
+D:\OneDrive\Documentos\.Net Proyectos\ProyectoLab_v2\ProyectoLab.Shared\obj\Debug\net8.0\ProyectoLab.Shared.sourcelink.json
+D:\OneDrive\Documentos\.Net Proyectos\ProyectoLab_v2\ProyectoLab.Shared\obj\Debug\net8.0\ProyectoLab.Shared.dll
+D:\OneDrive\Documentos\.Net Proyectos\ProyectoLab_v2\ProyectoLab.Shared\obj\Debug\net8.0\refint\ProyectoLab.Shared.dll
+D:\OneDrive\Documentos\.Net Proyectos\ProyectoLab_v2\ProyectoLab.Shared\obj\Debug\net8.0\ProyectoLab.Shared.pdb
+D:\OneDrive\Documentos\.Net Proyectos\ProyectoLab_v2\ProyectoLab.Shared\obj\Debug\net8.0\ref\ProyectoLab.Shared.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoLab.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4168693dd05bca468e25869d1745bba2eee60e97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f594ccd79a4c3435eb0e8d8b90308162ff88453")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectoLab.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoLab.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

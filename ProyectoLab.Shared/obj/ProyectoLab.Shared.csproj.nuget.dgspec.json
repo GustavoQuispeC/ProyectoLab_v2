@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj": {}
+    "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj": {
+    "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj",
+        "projectUniqueName": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj",
         "projectName": "ProyectoLab.Shared",
-        "projectPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj",
-        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\obj\\",
+        "projectPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\ProyectoLab.Shared.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

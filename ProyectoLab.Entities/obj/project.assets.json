@@ -4068,19 +4068,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gustavo\\.nuget\\packages\\": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj",
+      "projectUniqueName": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj",
       "projectName": "ProyectoLab.Entities",
-      "projectPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj",
-      "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gustavo\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\obj\\",
+      "projectPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\ProyectoLab.Entities.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "D:\\OneDrive\\Documentos\\.Net Proyectos\\ProyectoLab_v2\\ProyectoLab.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
